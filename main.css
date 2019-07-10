@@ -1,0 +1,223 @@
+/* Custom style sheet some customizations for Marvenfox.com.  Mainly custom headings and using HK Grotesk font in some sections. */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.about {
+    padding-top: 4rem;
+}
+
+body {
+  background-color: #F8F8F8;
+  padding-top: 3rem;
+}
+
+.nav-link {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 10pt;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #1D6679;
+  border-radius: 0;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-family: 'HKGroteskRegular';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 36pt;
+}
+
+.jumbotron-sub {
+  font-family: 'HKGroteskRegular';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 48pt;  
+}
+
+.jumbotron-text {
+  font-family: 'HKGroteskRegular';
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  font-size: 13pt;
+}
+
+.about-heading {
+  font-family: 'HKGroteskRegular';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1D6679;
+  font-size: 20pt; 
+}
+
+.hk-text {
+  font-family: 'HKGroteskRegular';
+  font-style: normal;
+  font-weight: normal;
+  color: #1D6679;
+  font-size: 13pt;
+}
+
+.services {
+    padding-top: 4rem;
+}
+
+.services-sub {
+  font-family: 'HKGroteskRegular';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1D6679;
+  font-size: 20pt; 
+}
+
+.hk-heading {
+  font-family: 'HKGroteskRegular';
+  font-weight: bold;
+  color: #1D6679;
+  font-size: 26pt; 
+}
+
+.bd-toc-link {
+    display: block;
+    padding: .25rem 1.5rem;
+    font-weight: 500;
+    color: rgba(0,0,0,.65);
+}
+
+.bd-toc-item.active>.bd-toc-link {
+    color: rgba(0,0,0,.85);
+}
+
+/*
+.custom-toggler.navbar-toggler {
+    border-color: rgb(248,248,248);
+}
+*/
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(248,248,248, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.footer {
+  position: absolute;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  width: 100%;
+  background-color: #333333; 
+}
+
+.footer-heading {
+  font-family: 'HKGroteskRegular';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #33CC99;
+  font-size: 20pt; 
+}
+
+.footer-sub-heading {
+  font-family: 'HKGroteskRegular';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14pt; 
+}
+
+.footer-text {
+    font-family: 'HKGroteskRegular';
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    font-size: 13pt;
+}
+
+.footer-contact {
+    font-family: 'HKGroteskRegular';
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    font-size: 16pt; 
+}
+
+.footer-copyright {
+    font-family: 'HKGroteskRegular';
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    font-size: 10pt;
+}
+
+.btn-outline-secondary {
+    font-family: 'HKGroteskRegular';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #33cc99;
+    border-color: #33cc99;
+    font-size: 13pt;
+    border-radius: 0;
+}
+
+/* Reverb styling maybe get rid of */
+
+.reverb-embedded-listings {
+    list-style-type: none !important;
+    float: left;
+  }
+  .reverb-embedded-listing {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 0.25em;
+    box-shadow: 2px 2px 1px #f9f9f9;
+    width: 200px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-family: "Arial", "Verdana", sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+  }
+  .reverb-embedded-listing a {
+    text-decoration: none;
+    color: #0080a5;
+  }
+  .reverb-embedded-listing-info {
+    border-top: 1px solid #ddd;
+    padding: 1em;
+    height: 5em;
+  }
+  .reverb-embedded-listing-title {
+    display: block;
+    max-height: 38px;
+    color: #6f6f6f;
+    font-size: 1.25rem;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  .reverb-embedded-listing-price {
+    position: absolute;
+    padding: 0.75rem;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    background-color: #D27900;
+    color: white;
+  }
+  .reverb-embedded-listing img {
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    width: 100%;
+  }
+  .reverb-embedded-listing img:hover { opacity: 0.85; }
